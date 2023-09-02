@@ -1,0 +1,46 @@
+@use "../../colors";
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  & h1 {
+    font-size: 35px;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: colors.$tertiary;
+    background-color: colors.$background;
+  }
+  & .logo {
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 30px auto 20px;
+  }
+  & .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 15px 0;
+    & li {
+      flex-basis: 49%;
+      & a {
+        background-color: colors.$background;
+        border-radius: 15px;
+        text-align: center;
+        display: block;
+        margin: 0 5px;
+        transition: transform 0.2s, color 0.2s;
+        padding: 10px 20px;
+        margin: 5px 10px;
+      }
+    }
+    & a:hover {
+      color: colors.$tertiary;
+      transform: scale(1.2);
+    }
+  }
+}

@@ -1,3 +1,4 @@
+@use "colors";
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,25 +13,23 @@ body {
 }
 
 body {
-  color: #ffffff;
-  background-color: #000000;
+  color: colors.$primary;
+  background-color: colors.$background;
 }
 
 a {
-  color: #ffffff;
+  color: colors.$primary;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
   transition: color 0.3s;
   cursor: pointer;
 }
-
 h2 {
   text-align: center;
   padding: 10px 20px;
-  color: #ffb727;
+  color: colors.$tertiary;
 }
-
 ul {
   list-style-type: none;
 }
@@ -39,4 +38,4 @@ ul {
   html {
     color-scheme: dark;
   }
-}/*# sourceMappingURL=globals.css.map */
+}
