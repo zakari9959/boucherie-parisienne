@@ -1,0 +1,13 @@
+@use "../../colors";
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  img {
+    max-width: 200px;
+    height: auto;
+    margin: 10px 10px;
+    border: 2px solid colors.$tertiary;
+    border-radius: 50%;
+  }
+}

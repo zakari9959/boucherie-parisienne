@@ -4,17 +4,9 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  & h1 {
-    font-size: 35px;
-    margin: 10px 5px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    color: colors.$tertiary;
-    background-color: colors.$background;
-  }
+  margin-bottom: 30px;
   & .logo {
-    border: 4px solid white;
+    border: 3px solid colors.$tertiary;
     border-radius: 50%;
     margin: 30px auto 20px;
   }
@@ -41,6 +33,26 @@ header {
     & a:hover {
       color: colors.$tertiary;
       transform: scale(1.2);
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    margin: 50px;
+    flex-direction: row;
+    height: 100px;
+    .logo {
+      width: 100px;
+      height: auto;
+      border: 2px solid colors.$tertiary;
+      margin-top: 20px;
+    }
+    & .navbar {
+      flex-direction: row;
+      & li {
+        flex-basis: 0%;
+      }
     }
   }
 }

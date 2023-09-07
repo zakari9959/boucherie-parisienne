@@ -10,12 +10,14 @@ export default function HomeProducts(): JSX.Element {
           alt="Certification viande Charolaise AVS"
           width={425}
           height={440}
+          priority={true}
         />
         <Image
           src="/assets/produits-etal2.webp"
           alt="Certification viande Charolaise AVS"
           width={425}
           height={440}
+          priority={true}
         />
       </div>
       <h2>

@@ -3,16 +3,17 @@
   border: solid colors.$tertiary 2px;
   border-radius: 0px 0px 20px 20px;
   box-shadow: 0px 0px 12px 3px rgba(colors.$tertiary, 0.4);
-  margin: 15px;
+  margin: 20px;
   background-color: colors.$background;
+  margin-bottom: 50px;
+  max-width: 700px;
+  transition: transform 0.3s, color 0.3s;
   &__img {
     display: flex;
     overflow: hidden;
-
     & img {
       width: 50%;
       height: 100%;
-
       object-fit: cover;
     }
   }
@@ -21,8 +22,7 @@
     padding: 10px 30px;
     font-size: 1.3rem;
   }
-  & h2:hover {
-    color: colors.$tertiary;
-    transform: scale(1.1);
-  }
+}
+.homeproducts:hover {
+  transform: scale(1.1);
 }

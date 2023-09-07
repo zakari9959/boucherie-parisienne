@@ -16,6 +16,12 @@ body {
   background-color: #000000;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -23,6 +29,17 @@ a {
   font-weight: bold;
   transition: color 0.3s;
   cursor: pointer;
+}
+
+h1 {
+  display: none;
+  font-size: 35px;
+  margin: 0 0 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffb727;
+  background-color: #000000;
 }
 
 h2 {
@@ -38,5 +55,10 @@ ul {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+@media scren and (max-width: 600px) {
+  h1 {
+    display: block;
   }
 }/*# sourceMappingURL=globals.css.map */

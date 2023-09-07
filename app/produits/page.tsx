@@ -7,8 +7,10 @@ export default function Produits(): JSX.Element {
   return (
     <main>
       <div className="produits">
-        <ProduitsViandes />
-        <ProduitsTraiteur />
+        <div className="produits--flex">
+          <ProduitsViandes />
+          <ProduitsTraiteur />
+        </div>
         <ProduitsRotisserie />
       </div>
     </main>

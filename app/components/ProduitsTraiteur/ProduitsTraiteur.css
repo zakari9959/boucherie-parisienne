@@ -4,10 +4,10 @@
   align-items: center;
 }
 .produitstraiteur h2 {
-  margin: 20px;
+  margin: 50px 20px;
   text-align: center;
 }
-.produitstraiteur__img {
+.produitstraiteur__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
   padding: 10px;
   border-radius: 15px;
 }
-.produitstraiteur__img img {
+.produitstraiteur__list img {
   width: 100%;
   height: auto;
   flex-basis: 30%;

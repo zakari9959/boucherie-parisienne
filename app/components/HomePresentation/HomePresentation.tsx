@@ -14,10 +14,12 @@ export default function HomePresentation(): JSX.Element {
       <h2>Découvrez l&apos;excellence de la Boucherie Parisienne</h2>
       <p>
         La Boucherie Parisienne vous propose une vaste sélection de produits de
-        qualité supérieure, soigneusement sélectionnés par notre boucher
-        expérimenté. Notre gamme variée comprend une multitude de viandes issues
-        de boeuf, de veau et d&apos;agneau. Plongez dans l&apos;univers de nos
-        produits et explorez l&apos;art artisanal de la boucherie.
+        qualité, soigneusement sélectionnés par notre artisan boucher. Vous
+        aurez la possibilité de choisir des pièces de viandes, ainsi que des
+        produits traiteur et des charcuteries fait maison. Nous travaillons le
+        boeuf, le veau et l&apos;agneau, tous issues de l&apos;agriculture
+        française. Plongez dans l&apos;univers de nos produits et explorez
+        l&apos;art artisanal de la boucherie.
       </p>
       <Image
         src="/assets/devanture.webp"
@@ -32,7 +34,7 @@ export default function HomePresentation(): JSX.Element {
         N&apos;hésitez pas à aller voir la liste sur
         <a href="https://www.douaicommerce.com/#R">douaicommerce.com</a> ou le
         site de commande regroupant de tous les commerces de Douai sur
-        <a href="https://www.acheteradouai.fr/promotions">acheteraDouai.fr</a>
+        <a href="https://www.acheteradouai.fr/promotions">acheteradouai.fr</a>
       </p>
     </div>
   );

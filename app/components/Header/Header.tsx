@@ -5,13 +5,6 @@ import "./Header.css";
 import { Page } from "../../types";
 
 export default function Header(): JSX.Element {
-  const title: JSX.Element = (
-    <h1>
-      Boucherie Parisienne
-      <br /> - HALAL - <br />
-      Douai
-    </h1>
-  );
   const pages: Page[] = [
     { path: "/", title: "Accueil" },
     { path: "/produits", title: "Produits" },
@@ -23,14 +16,16 @@ export default function Header(): JSX.Element {
   return (
     <>
       <header>
-        <Link href="/">{title}</Link>
-        <Image
-          className="logo"
-          src="/assets/logo.webp"
-          alt="logo"
-          width={200}
-          height={200}
-        />
+        <Link href="/">
+          <Image
+            className="logo"
+            src="/assets/logo.webp"
+            alt="Boucherie Parisienne - Douai - HALAL"
+            width={200}
+            height={200}
+            priority={true}
+          />
+        </Link>
         <nav>
           <ul className="navbar">
             {pages.map((page) => (

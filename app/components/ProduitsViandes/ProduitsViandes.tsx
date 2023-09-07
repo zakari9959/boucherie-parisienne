@@ -15,8 +15,8 @@ export default function ProduitsViandes() {
   ];
   return (
     <div className="produitsviandes">
-      <h2>Des Viandes d&apos;Exceptions</h2>
-      <div className="produitsviandes__img">
+      <h2>Viandes d&apos;Exceptions</h2>
+      <div className="produitsviandes__list">
         {viandes.map((viande, index) => (
           <Image
             key={viande.id}

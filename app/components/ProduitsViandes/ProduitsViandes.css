@@ -4,10 +4,10 @@
   align-items: center;
 }
 .produitsviandes h2 {
-  margin: 20px;
+  margin: 50px 20px;
   text-align: center;
 }
-.produitsviandes__img {
+.produitsviandes__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -18,7 +18,7 @@
   padding: 10px;
   border-radius: 15px;
 }
-.produitsviandes__img img {
+.produitsviandes__list img {
   width: 100%;
   height: auto;
   flex-basis: 30%;

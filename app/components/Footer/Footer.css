@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+footer img {
+  max-width: 200px;
+  height: auto;
+  margin: 10px 10px;
+  border: 2px solid #ffb727;
+  border-radius: 50%;
+}/*# sourceMappingURL=Footer.css.map */
