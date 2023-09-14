@@ -6,6 +6,7 @@ import HomeProducts from "./components/HomeProducts/HomeProducts";
 import Script from "next/script";
 import NewsFB from "./components/NewsFb/NewsFb";
 import HomeHours from "./components/Hours/Hours";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 export default function Home(): JSX.Element {
   return (
@@ -27,6 +28,7 @@ export default function Home(): JSX.Element {
         Pour toute réservation ou demande d&apos;information, utilisez notre
         formulaire de contact
       </h3>
+      <ContactForm />
     </main>
   );
 }

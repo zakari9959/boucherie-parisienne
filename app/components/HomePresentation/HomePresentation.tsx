@@ -4,13 +4,6 @@ import "./HomePresentation.css";
 export default function HomePresentation(): JSX.Element {
   return (
     <div className="presentation">
-      <Image
-        src="/assets/presentation.webp"
-        alt="Logo de La Boucherie Parisienne"
-        width={425}
-        height={425}
-        className="presentation__img"
-      />
       <h2>Découvrez l&apos;excellence de la Boucherie Parisienne</h2>
       <p>
         La Boucherie Parisienne vous propose une vaste sélection de produits de
