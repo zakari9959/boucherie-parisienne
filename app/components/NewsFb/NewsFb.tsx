@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { FacebookProvider, Page } from "react-facebook";
 import "./NewsFb.css";
 
 type NewsFbProps = {
@@ -11,26 +12,18 @@ export default function NewsFb(props: NewsFbProps) {
   const { width, height } = props;
   return (
     <div className="newsfb">
-      <div
-        className="fb-page"
-        data-href="https://www.facebook.com/boucherieparisiennedouai/"
-        data-tabs="timeline"
-        data-width={width}
-        data-height={height}
-        data-small-header="true"
-        data-adapt-container-width="true"
-        data-hide-cover="true"
-        data-show-facepile="false"
-      >
-        <blockquote
-          cite="https://www.facebook.com/boucherieparisiennedouai/"
-          className="fb-xfbml-parse-ignore"
-        >
-          <a href="https://www.facebook.com/boucherieparisiennedouai/">
-            Boucherie parisienne Douai
-          </a>
-        </blockquote>
-      </div>
+      <FacebookProvider appId="580882767589845">
+        <Page
+          href="https://www.facebook.com/boucherieparisiennedouai/"
+          tabs="timeline"
+          width={width}
+          height={height}
+          smallHeader={true}
+          adaptContainerWidth={true}
+          hideCover={true}
+          showFacepile={false}
+        />
+      </FacebookProvider>
     </div>
   );
 }
