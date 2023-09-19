@@ -5,10 +5,10 @@ import "./ProduitsRotisserie.css";
 export default function ProduitsRotisserie() {
   return (
     <div className="produitsrotisserie">
-      <h2>La Rôtisserie</h2>
+      <h3>La Rôtisserie</h3>
       <p>
-        Nous vous proposons un service rôtisserie tout les dimanches midi,
-        pensez à réserver avant
+        Nous vous proposons un service de rôtisserie tous les dimanches midi.
+        Pensez à réserver à l&apos;avance.
       </p>
       <Image
         src="/assets/rotisserie1.webp"

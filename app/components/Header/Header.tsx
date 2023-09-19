@@ -2,17 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import "./Header.css";
-import { Page } from "../../types";
+import HeaderLink from "./HeaderLink";
 
 export default function Header(): JSX.Element {
-  const pages: Page[] = [
-    { path: "/", title: "Accueil" },
-    { path: "/produits", title: "Produits" },
-    { path: `/news`, title: "Actualités" },
-    { path: `/contact`, title: "Réservation" },
-    { path: `/horaires`, title: "Horaires" },
-  ];
-
   return (
     <>
       <header>
@@ -27,13 +19,7 @@ export default function Header(): JSX.Element {
           />
         </Link>
         <nav>
-          <ul className="navbar">
-            {pages.map((page) => (
-              <li key={page.path}>
-                <Link href={page.path}>{page.title}</Link>
-              </li>
-            ))}
-          </ul>
+          <HeaderLink />
         </nav>
       </header>
     </>

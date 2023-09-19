@@ -5,12 +5,11 @@ import ProduitsRotisserie from "../components/ProduitsRotisserie/ProduitsRotisse
 import "./Produits.css";
 export default function Produits(): JSX.Element {
   return (
-    <main>
-      <div className="produits">
-        <div className="produits--flex">
-          <ProduitsViandes />
-          <ProduitsTraiteur />
-        </div>
+    <main className="produits">
+      <h2>Produits</h2>
+      <div className="produits__list">
+        <ProduitsViandes />
+        <ProduitsTraiteur />
         <ProduitsRotisserie />
       </div>
     </main>

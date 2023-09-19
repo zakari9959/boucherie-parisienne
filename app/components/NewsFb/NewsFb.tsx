@@ -3,13 +3,9 @@ import React from "react";
 import { FacebookProvider, Page } from "react-facebook";
 import "./NewsFb.css";
 
-type NewsFbProps = {
-  width: string;
-  height: string;
-};
-
-export default function NewsFb(props: NewsFbProps) {
-  const { width, height } = props;
+export default function NewsFb(): JSX.Element {
+  const width = 500;
+  const height = 500;
   return (
     <div className="newsfb">
       <FacebookProvider appId="580882767589845">

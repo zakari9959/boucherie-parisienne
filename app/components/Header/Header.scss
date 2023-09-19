@@ -8,7 +8,7 @@ header {
   & .logo {
     border: 3px solid colors.$tertiary;
     border-radius: 50%;
-    margin: 30px auto 20px;
+    margin: 30px 20px 20px;
   }
   & .navbar {
     display: flex;
@@ -34,24 +34,37 @@ header {
       color: colors.$tertiary;
       transform: scale(1.2);
     }
+    & .link--active {
+      color: colors.$tertiary;
+      transform: scale(1.2);
+    }
   }
 }
 
 @media screen and (min-width: 600px) {
   header {
-    margin: 50px;
     flex-direction: row;
     height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: colors.$background;
+    border-bottom: 2px solid colors.$tertiary;
+    z-index: 100;
     .logo {
       width: 100px;
       height: auto;
       border: 2px solid colors.$tertiary;
-      margin-top: 20px;
+      margin: 10px 40px 5px;
     }
     & .navbar {
       flex-direction: row;
+      margin: 0 10px;
       & li {
         flex-basis: 0%;
+        font-size: 1.2rem;
       }
     }
   }

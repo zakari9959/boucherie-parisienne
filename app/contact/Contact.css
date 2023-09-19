@@ -1,9 +1,12 @@
-.news h2 {
+.contact {
+  padding: 0 20px;
+}
+.contact h2 {
   margin: 20px;
   box-shadow: 0px 0px 12px 2px #ffb727;
 }
-.news p {
+.contact p {
   max-width: 700px;
   padding: 20px 30px;
   text-align: justify;
-}/*# sourceMappingURL=News.css.map */
+}/*# sourceMappingURL=Contact.css.map */

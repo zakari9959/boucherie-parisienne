@@ -1,11 +1,13 @@
 @use "../colors";
-.produits {
-  & h2 {
+.contact {
+  padding: 0 20px;
+  h2 {
     margin: 20px;
     box-shadow: 0px 0px 12px 2px colors.$tertiary;
   }
-  &__list {
-    color: colors.$tertiary;
+  p {
     max-width: 700px;
+    padding: 20px 30px;
+    text-align: justify;
   }
 }

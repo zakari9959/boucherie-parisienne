@@ -6,13 +6,13 @@ export default function HomePresentation(): JSX.Element {
     <div className="presentation">
       <h2>Découvrez l&apos;excellence de la Boucherie Parisienne</h2>
       <p>
-        La Boucherie Parisienne vous propose une vaste sélection de produits de
-        qualité, soigneusement sélectionnés par notre artisan boucher. Vous
-        aurez la possibilité de choisir des pièces de viandes, ainsi que des
-        produits traiteur et des charcuteries fait maison. Nous travaillons le
-        boeuf, le veau et l&apos;agneau, tous issues de l&apos;agriculture
-        française. Plongez dans l&apos;univers de nos produits et explorez
-        l&apos;art artisanal de la boucherie.
+        La Boucherie Parisienne vous offre une vaste sélection de produits de
+        qualité, méticuleusement choisis par notre artisan boucher. Vous aurez
+        la possibilité de sélectionner des pièces de viande, ainsi que des
+        produits traiteurs et des charcuteries faites maison. Nous travaillons
+        avec du bœuf, du veau et de l&apos;agneau, tous issus de
+        l&apos;agriculture française. Plongez dans l&apos;univers de nos
+        produits et explorez l&apos;art artisanal de la boucherie.
       </p>
       <Image
         src="/assets/devanture.webp"

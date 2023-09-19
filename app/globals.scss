@@ -31,13 +31,16 @@ a {
 }
 h1 {
   display: none;
-  font-size: 35px;
+  font-size: 45px;
   margin: 0 0 50px;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border-radius: 5px;
   text-align: center;
-  color: colors.$tertiary;
+  color: white;
+  text-shadow: 1px 1px 3px colors.$tertiary;
   background-color: colors.$background;
+  box-shadow: 0px 0px 12px 2px colors.$tertiary;
+  font-weight: 400;
 }
 h2 {
   text-align: center;
@@ -56,6 +59,10 @@ ul {
 
 @media screen and (min-width: 600px) {
   h1 {
+    margin: 0 15px 50px;
     display: block;
+  }
+  main {
+    margin-top: 180px;
   }
 }

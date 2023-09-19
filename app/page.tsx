@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import "./Home.css";
@@ -7,11 +8,14 @@ import Script from "next/script";
 import NewsFB from "./components/NewsFb/NewsFb";
 import HomeHours from "./components/Hours/Hours";
 import ContactForm from "./components/ContactForm/ContactForm";
+import { greatvibes } from "./utils/fonts";
 
 export default function Home(): JSX.Element {
   return (
     <main>
-      <h1>Boucherie Parisienne - Douai - HALAL</h1>
+      <h1 className={greatvibes.className}>
+        Boucherie Parisienne - Douai - Halal
+      </h1>
       <HomeHours />
       <Link href="/produits">
         <HomeProducts />
@@ -23,7 +27,7 @@ export default function Home(): JSX.Element {
           Retrouvez toutes les actualités et nouveautés sur notre page Facebook
         </h2>
       </a>
-      <NewsFB width="500" height="500" />
+      <NewsFB />
       <h3>
         Pour toute réservation ou demande d&apos;information, utilisez notre
         formulaire de contact

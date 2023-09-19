@@ -9,11 +9,11 @@ export default function News(): JSX.Element {
       <h2>Actualités</h2>
       <p>
         Toutes les nouveautés et actualités sont à retrouver sur notre page
-        Facebook, avec notament les nouveaux arrivage ou les changements
-        d&apos;horaires. Celle-ci est réguliérement mise à jour, n&apos;hésitez
-        pas à vous abonnez afin de recevoir une notification.
+        Facebook, notamment les nouveaux arrivages et les changements
+        d&apos;horaires. Celle-ci est régulièrement mise à jour, n&apos;hésitez
+        pas à vous abonner afin de recevoir des notifications.
       </p>
-      <NewsFb width="700" height="400" />
+      <NewsFb />
     </main>
   );
 }

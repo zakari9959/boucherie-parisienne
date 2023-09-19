@@ -19,7 +19,7 @@ export default function ProduitsTraiteur() {
   ];
   return (
     <div className="produitstraiteur">
-      <h2>Créations Fait Maison</h2>
+      <h3>Créations Fait Maison</h3>
       <div className="produitstraiteur__list">
         {traiteur.map((trait, index) => (
           <Image
