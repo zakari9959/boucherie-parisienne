@@ -14,7 +14,7 @@
 }
 .homeproducts__img img {
   width: 50%;
-  height: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }

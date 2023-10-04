@@ -37,7 +37,7 @@ header .navbar a:hover {
 }
 header .navbar .link--active {
   color: #ffb727;
-  transform: scale(1.2);
+  transform: scale(1.3);
 }
 
 @media screen and (min-width: 600px) {
@@ -54,10 +54,10 @@ header .navbar .link--active {
     z-index: 100;
   }
   header .logo {
-    width: 100px;
+    width: 64px;
     height: auto;
     border: 2px solid #ffb727;
-    margin: 10px 40px 5px;
+    margin: 5px 40px 0px;
   }
   header .navbar {
     flex-direction: row;
@@ -66,5 +66,9 @@ header .navbar .link--active {
   header .navbar li {
     flex-basis: 0%;
     font-size: 1.2rem;
+  }
+  header .navbar li a {
+    padding: 20px 20px;
+    background-color: transparent;
   }
 }/*# sourceMappingURL=Header.css.map */
