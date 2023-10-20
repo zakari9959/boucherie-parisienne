@@ -5,4 +5,7 @@
 .produits__list {
   color: #ffb727;
   max-width: 700px;
+}
+.produits .bgcolor {
+  background-color: black;
 }/*# sourceMappingURL=Produits.css.map */

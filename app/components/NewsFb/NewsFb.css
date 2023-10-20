@@ -1,15 +1,16 @@
 .newsfb {
   margin: 30px 20px;
   box-shadow: 0px 0px 12px 2px #ffb727;
-  width: 320px;
   border-radius: 10px;
+  width: 300px;
 }
 .newsfb iframe {
   border-radius: 10px;
 }
 
-@media screen and (min-width: 600px) {
+/* @media screen and (min-width: 600px) {
   .newsfb {
     width: 500px;
   }
-}/*# sourceMappingURL=NewsFb.css.map */
+}
+ *//*# sourceMappingURL=NewsFb.css.map */

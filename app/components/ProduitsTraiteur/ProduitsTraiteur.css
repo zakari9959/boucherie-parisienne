@@ -6,6 +6,7 @@
 .produitstraiteur h3 {
   margin: 50px 20px;
   text-align: center;
+  font-size: 2rem;
 }
 .produitstraiteur__list {
   display: flex;
@@ -22,4 +23,11 @@
   width: 100%;
   height: auto;
   flex-basis: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  .produitstraiteur__list {
+    gap: 20px;
+    padding: 10px 0;
+  }
 }/*# sourceMappingURL=ProduitsTraiteur.css.map */

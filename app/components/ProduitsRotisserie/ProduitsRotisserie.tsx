@@ -7,8 +7,8 @@ export default function ProduitsRotisserie() {
     <div className="produitsrotisserie">
       <h3>La Rôtisserie</h3>
       <p>
-        Nous vous proposons un service de rôtisserie tous les dimanches midi.
-        Pensez à réserver à l&apos;avance.
+        Nous vous proposons un service de rôtisserie tous les samedis et
+        dimanches midi. Pensez à réserver à l&apos;avance.
       </p>
       <Image
         src="/assets/rotisserie1.webp"

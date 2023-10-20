@@ -22,7 +22,7 @@ header .navbar li {
   flex-basis: 49%;
 }
 header .navbar li a {
-  background-color: #000000;
+  background-color: black;
   border-radius: 15px;
   text-align: center;
   display: block;
@@ -49,7 +49,7 @@ header .navbar .link--active {
     left: 0;
     width: 100%;
     height: auto;
-    background-color: #000000;
+    background-color: black;
     border-bottom: 2px solid #ffb727;
     z-index: 100;
   }

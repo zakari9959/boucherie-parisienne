@@ -20,7 +20,7 @@ export default function ProduitsTraiteur() {
   return (
     <div className="produitstraiteur">
       <h3>Créations Fait Maison</h3>
-      <div className="produitstraiteur__list">
+      <div className="produitstraiteur__list bgcolor">
         {traiteur.map((trait, index) => (
           <Image
             key={trait.id}
