@@ -1,1 +1,1 @@
-{"version":3,"sources":["News.scss","News.css"],"names":[],"mappings":"AAEE;EACE,YAAA;EACA,oCAAA;ACDJ;ADGE;EACE,gBAAA;EACA,kBAAA;EACA,mBAAA;ACDJ","file":"News.css"}
+{"version":3,"sources":["News.scss","../colors.scss","News.css"],"names":[],"mappings":"AAEE;EACE,YAAA;EACA,oCAAA;EACA,uBCHQ;ACEZ;AFGE;EACE,gBAAA;EACA,kBAAA;EACA,mBAAA;AEDJ","file":"News.css"}

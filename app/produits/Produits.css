@@ -1,6 +1,7 @@
 .produits h2 {
   margin: 20px;
   box-shadow: 0px 0px 12px 2px #ffb727;
+  background-color: black;
 }
 .produits__list {
   color: #ffb727;

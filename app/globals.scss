@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  color: colors.$primary;
+  color: rgba(colors.$primary, 0.9);
   background-color: colors.$background;
 }
 main {
@@ -38,7 +38,7 @@ h1 {
   text-align: center;
   color: white;
   text-shadow: 1px 1px 3px colors.$tertiary;
-  background-color: colors.$background;
+  background-color: colors.$secondary;
   box-shadow: 0px 0px 12px 2px colors.$tertiary;
   font-weight: 400;
 }
@@ -48,6 +48,9 @@ h2 {
   color: colors.$tertiary;
   border-radius: 5px;
   font-size: 2rem;
+}
+.homecontacth3 {
+  padding: 0 20px;
 }
 ul {
   list-style-type: none;
@@ -65,6 +68,6 @@ ul {
     display: block;
   }
   main {
-    margin-top: 180px;
+    margin-top: 130px;
   }
 }

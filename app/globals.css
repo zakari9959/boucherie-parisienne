@@ -12,8 +12,8 @@ body {
 }
 
 body {
-  color: #ffffff;
-  background-color: black;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #121212;
 }
 
 main {
@@ -53,6 +53,10 @@ h2 {
   font-size: 2rem;
 }
 
+.homecontacth3 {
+  padding: 0 20px;
+}
+
 ul {
   list-style-type: none;
 }
@@ -68,6 +72,6 @@ ul {
     display: block;
   }
   main {
-    margin-top: 180px;
+    margin-top: 130px;
   }
 }/*# sourceMappingURL=globals.css.map */

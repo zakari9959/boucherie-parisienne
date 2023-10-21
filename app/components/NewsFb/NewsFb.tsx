@@ -12,9 +12,10 @@ export default function NewsFb(): JSX.Element {
           tabs="timeline"
           width="300"
           height="500"
-          smallHeader={true}
+          smallHeader={false}
           adaptContainerWidth={true}
-          hideCover={true}
+          hideCover={false}
+          hideCTA={true}
           showFacepile={false}
         />
       </FacebookProvider>

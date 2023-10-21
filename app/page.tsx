@@ -28,7 +28,7 @@ export default function Home(): JSX.Element {
         </h2>
       </a>
       <NewsFB />
-      <h3>
+      <h3 className="homecontacth3">
         Pour toute réservation ou demande d&apos;information, utilisez notre
         formulaire de contact
       </h3>
