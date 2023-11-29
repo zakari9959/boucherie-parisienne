@@ -15,7 +15,6 @@ export default function NewsFb(): JSX.Element {
           smallHeader={false}
           adaptContainerWidth={true}
           hideCover={false}
-          hideCTA={true}
           showFacepile={false}
         />
       </FacebookProvider>

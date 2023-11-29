@@ -15,6 +15,14 @@ export default function ProduitsViandes() {
   ];
   return (
     <div className="produitsviandes">
+      <Image
+        src="/assets/origineviande.webp"
+        alt="Tableau d'origine de la viande, France"
+        width={400}
+        height={315}
+        priority={true}
+        className="origineviande"
+      />
       <h3>Viandes d&apos;Exceptions</h3>
       <div className="produitsviandes__list bgcolor">
         {viandes.map((viande, index) => (

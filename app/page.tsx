@@ -9,6 +9,7 @@ import NewsFB from "./components/NewsFb/NewsFb";
 import HomeHours from "./components/Hours/Hours";
 import ContactForm from "./components/ContactForm/ContactForm";
 import { greatvibes } from "./utils/fonts";
+import Image from "next/image";
 
 export default function Home(): JSX.Element {
   return (
@@ -16,6 +17,14 @@ export default function Home(): JSX.Element {
       <h1 className={greatvibes.className}>
         Boucherie Parisienne - Douai - Halal
       </h1>
+      <Image
+        src="/assets/cartenoel.webp"
+        alt="Menu de Noël"
+        width={300}
+        height={400}
+        priority={true}
+        style={{ marginBottom: "30px" }}
+      />
       <HomeHours />
       <Link href="/produits">
         <HomeProducts />

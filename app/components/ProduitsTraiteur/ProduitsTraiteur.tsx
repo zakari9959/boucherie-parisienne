@@ -16,6 +16,9 @@ export default function ProduitsTraiteur() {
     { id: 10, src: "/assets/traiteur10.webp" },
     { id: 11, src: "/assets/traiteur11.webp" },
     { id: 12, src: "/assets/traiteur12.webp" },
+    { id: 13, src: "/assets/traiteur13.webp" },
+    { id: 14, src: "/assets/traiteur14.webp" },
+    { id: 15, src: "/assets/traiteur15.webp" },
   ];
   return (
     <div className="produitstraiteur">

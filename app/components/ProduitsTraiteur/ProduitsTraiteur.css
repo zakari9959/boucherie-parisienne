@@ -10,7 +10,7 @@
 }
 .produitstraiteur__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   gap: 10px;
   border: #ffb727 2px solid;
@@ -20,9 +20,9 @@
   border-radius: 15px;
 }
 .produitstraiteur__list img {
-  width: 100%;
-  height: auto;
-  flex-basis: 30%;
+  max-width: 30%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media screen and (min-width: 600px) {

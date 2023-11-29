@@ -2,7 +2,8 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./ContactForm.css";
-function ContactForm() {
+
+export default function ContactForm() {
   const [state, handleSubmit] = useForm("mjvqrldb");
   if (state.succeeded) {
     return (
@@ -26,7 +27,3 @@ function ContactForm() {
     </form>
   );
 }
-function App() {
-  return <ContactForm />;
-}
-export default ContactForm;
