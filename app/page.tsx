@@ -17,14 +17,6 @@ export default function Home(): JSX.Element {
       <h1 className={greatvibes.className}>
         Boucherie Parisienne - Douai - Halal
       </h1>
-      <Image
-        src="/assets/cartenoel.webp"
-        alt="Menu de Noël"
-        width={300}
-        height={400}
-        priority={true}
-        style={{ marginBottom: "30px" }}
-      />
       <HomeHours />
       <Link href="/produits">
         <HomeProducts />
